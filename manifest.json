@@ -1,26 +1,13 @@
 {
-
   "manifest_version": 2,
   "name": "fixter",
   "author": "@tompainetoday",
   "version": "1.0",
-
   "description": "fixes jack's mistakes.",
-
-  "background": {
-      "scripts": ["fix.js"]
-    },
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*","*://twitter.com/*"],
       "js": ["fix.js"]
     }
-  ],
-  "permissions": [
-        "activeTab",
-        "tabs",
-        "http://*/",
-        "https://*/"
-    ]
-
+  ]
 }
