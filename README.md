@@ -13,10 +13,10 @@ https://support.google.com/chrome/a/answer/2714278
 
 #### on Firefox:
 open Firefox
-enter "about:debugging" in the URL bar
-click "This Firefox"
-click "Load Temporary Add-on"
-open the extension's directory and select any file inside the extension,
+Enter "about:debugging" in the URL bar.
+Click "This Firefox."
+Click "Load Temporary Add-on."
+Open the extension's directory and select any file inside the extension,
 or select the packaged extension (.zip file).
 The extension installs and remains installed until you remove it or restart Firefox.
 https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/
